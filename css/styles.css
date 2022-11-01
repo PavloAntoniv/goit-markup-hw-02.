@@ -1,0 +1,201 @@
+
+:root {
+  --primary-text-color: 
+  --title-text-color: #212121;
+  --paragraf-color: #757575;
+  --accent-color:
+}
+
+body {
+    background-color: #f5f5f5;
+color: #000000;
+  
+}
+header {
+  display: block;
+
+}
+/* site nav  */
+li {
+  list-style-type: none;
+}
+.webstudio-logo {
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+text-decoration: none;
+
+  color: #2196f3;
+}
+
+.studio-logo {
+  font-weight: 700;
+  font-size: 26px;
+  
+  color: #000000;
+}
+
+.header-menu {
+    text-decoration: none;
+  }
+
+ul {
+  text-decoration: none;
+ }
+
+
+.studio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+  
+}
+
+.studio:hover, .studio:focus {
+  color: #2196f3;
+}
+
+.portfolio {
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.portfolio:hover, .portfolio:focus {
+  color: #2196f3;
+}
+.contacts {
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.contacts:hover, .contacts:focus {
+  color: #2196f3; 
+}
+
+.mail-adres {
+  
+    text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+    
+}
+
+.mail-adres:hover, .mail-adres:focus {
+  color: #2196f3;
+}
+
+.contact-number {
+  
+    text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  
+
+  color: #757575;
+}
+
+.contact-number:hover, .contact-number:focus{
+  color: #2196f3;
+}
+
+/* main  */
+.main-section {
+    display: block;
+}
+
+.main-title { 
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background: #2F303A;
+color: #FFFFFF;
+
+}
+
+.button-order {
+  width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: hidden;
+}
+
+.button-order:hover, .button-order:focus{
+  background: #f5f4fa;
+    color: #212121;
+}
+
+/* .button-title{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+} */
+
+/* benefits  */
+
+.benefits-title{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.benefits-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--paragraf-color);
+}
