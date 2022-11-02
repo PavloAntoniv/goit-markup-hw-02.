@@ -13,6 +13,8 @@ body {
   background-color: var(--title-text-color);
   color: var(--primary-text-color);
   font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* site nav  */
@@ -49,7 +51,6 @@ ul {
 .studio {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -63,7 +64,7 @@ ul {
 
 .portfolio {
   font-weight: 500;
-  font-size: 14px;
+  line-height: 1.14;
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -74,7 +75,6 @@ ul {
 }
 .contacts {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -88,8 +88,7 @@ ul {
 
 .mail-adres {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
+  line-height: 1.14;
   color: var(--paragraf-color);
 }
 
@@ -103,7 +102,7 @@ ul {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  line-height: 1.14;
 
   color: var(--paragraf-color);
 }
@@ -115,15 +114,15 @@ ul {
 
 /* main  */
 .main-section {
-  display: block;
+  background: var(--background-title-color);
 }
 
 .main-title {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background: var(--background-title-color);
   color: var(--title-text-color);
 }
 
@@ -149,31 +148,20 @@ ul {
 
 /* benefit section  */
 .benefits-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 
 .benefits-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--paragraf-color);
 }
 
 /* work section  */
 
-.work-title {
-  font-weight: 700;
+.sections-title {
+  line-height: 1.17;
   font-size: 36px;
   color: var(--primary-text-color);
 }
@@ -191,20 +179,29 @@ ul {
 .team-section {
   background-color: var(--background-teams-color);
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  color: var(--primary-text-color);
-}
+/* .sections-title { */
+/* font-weight: 700; */
+/* font-size: 36px; */
+/* color: var(--primary-text-color);  */
+/* }  */
 
-.name {
-  width: 270px;
-  height: 368px;
+.name-list {
   background: var(--white-color);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--paragraf-color);
 }
 
 /* footer  */
@@ -213,15 +210,24 @@ ul {
   background-color: var(--background-title-color);
 }
 .adres {
-  font-weight: 400;
-  font-size: 14px;
   font-style: normal;
   color: var(--white-color);
 }
 .studio-logo-footer {
-  font-weight: 700;
   font-size: 26px;
   color: var(--white-color);
+}
+.footer-mail-adres {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-number {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* portfolio  */
@@ -235,15 +241,11 @@ ul {
 /* .projects-title  */
 
 .button-all {
-  width: 73px;
-  height: 38px;
-  font-style: normal;
+  padding: 6px 22px;
   color: var(--primary-text-color);
   background: var(--background-teams-color);
-  border: hidden;
+  border: none;
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -251,82 +253,8 @@ ul {
 .button-all:focus {
   background-color: var(--background-color);
   color: var(--white-color);
-}
-
-.button-web {
-  width: 73px;
-  height: 38px;
-  font-style: normal;
-  color: var(--primary-text-color);
-  background: var(--background-teams-color);
-  border: hidden;
-  cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.button-web:hover,
-.button-web:focus {
-  background-color: var(--background-color);
-  color: var(--white-color);
-}
-
-.button-app {
-  width: 73px;
-  height: 38px;
-  font-style: normal;
-  color: var(--primary-text-color);
-  background: var(--background-teams-color);
-  border: hidden;
-  cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.button-app:hover,
-.button-app:focus {
-  background-color: var(--background-color);
-  color: var(--white-color);
-}
-
-.button-design {
-  width: 73px;
-  height: 38px;
-  font-style: normal;
-  color: var(--primary-text-color);
-  background: var(--background-teams-color);
-  border: hidden;
-  cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.button-design:hover,
-.button-design:focus {
-  background-color: var(--background-color);
-  color: var(--white-color);
-}
-
-.butoon-marketing {
-  width: 73px;
-  height: 38px;
-  font-style: normal;
-  color: var(--primary-text-color);
-  background: var(--background-teams-color);
-  border: hidden;
-  cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.butoon-marketing:hover,
-.butoon-marketing:focus {
-  background-color: var(--background-color);
-  color: var(--white-color);
 }
 
 /* .projects-portfolio  */
@@ -341,17 +269,15 @@ ul {
 }
 
 .projects-title {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
 .projects-paragraf {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+
   color: var(--paragraf-color);
 }
