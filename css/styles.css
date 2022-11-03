@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--title-text-color);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: "Roboto";
   font-size: 14px;
@@ -86,29 +86,16 @@ ul {
   color: var(--background-color);
 }
 
-.mail-adres {
+.contact-link {
   text-decoration: none;
-  line-height: 1.14;
-  color: var(--paragraf-color);
-}
-
-.mail-adres:hover,
-.mail-adres:focus {
-  color: var(--background-color);
-}
-
-.contact-number {
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
 
   color: var(--paragraf-color);
 }
 
-.contact-number:hover,
-.contact-number:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--background-color);
 }
 
@@ -194,6 +181,7 @@ ul {
 }
 
 .name {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -217,15 +205,8 @@ ul {
   font-size: 26px;
   color: var(--white-color);
 }
-.footer-mail-adres {
+.footer-contacts-link {
   text-decoration: none;
-  font-weight: 400;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-contact-number {
-  text-decoration: none;
-  font-weight: 400;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -235,7 +216,6 @@ ul {
 /* projects  */
 
 .projects {
-  background-color: var(--title-text-color);
 }
 
 /* .projects-title  */
@@ -278,6 +258,5 @@ ul {
 .projects-paragraf {
   font-size: 16px;
   line-height: 1.9;
-
   color: var(--paragraf-color);
 }
