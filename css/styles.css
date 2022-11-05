@@ -16,6 +16,7 @@ html {
   --background-title-color: #2f303a;
   --background-teams-color: #f5f4fa;
   --white-color: #ffffff;
+  --border-proects: #eeeeee;
 }
 
 .visually-hidden {
@@ -264,6 +265,7 @@ ul {
 .button-all:focus {
   background-color: var(--background-color);
   color: var(--white-color);
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -275,8 +277,8 @@ ul {
 .projects-box {
   width: 370px;
   height: 404px;
-  border: 1px solid var(--background-title-color);
-  background-color: var(--title-text-color);
+  border: 1px solid var(--border-proects);
+  background-color: var(--white-color);
 }
 
 .webstudio-logo {
@@ -287,18 +289,6 @@ ul {
   text-decoration: none;
   margin-right: 93px;
   color: var(--background-color);
-}
-.projects-title {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
-
-.projects-paragraf {
-  font-size: 16px;
-  line-height: 1.9;
-  color: var(--paragraf-color);
 }
 
 /* HW3  */
@@ -394,4 +384,40 @@ ul {
 .contacts-footer {
   gap: 9px;
   padding-top: 20px;
+}
+
+.button-style {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button-style-container {
+  margin-top: 94px;
+  margin-bottom: 34px;
+  padding: 0 auto;
+}
+
+.ul-projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  padding-top: 20px;
+  padding-inline-start: 24px;
+}
+
+.projects-paragraf {
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--paragraf-color);
+  padding-inline-start: 24px;
 }
